@@ -1,4 +1,4 @@
-import { index } from '../index.js';
+const index = require('../index.js');
 
 describe('ageInSeconds', () => {
   test("one-second-old", async function() {

@@ -12,4 +12,4 @@ console.log(ageInSeconds(0.25));// should print 'You are 7889400 seconds old'
 
 /* Do not modify below this line */
 
-export const index = { ageInSeconds };
+module.exports = { ageInSeconds };
