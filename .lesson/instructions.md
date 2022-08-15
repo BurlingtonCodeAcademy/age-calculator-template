@@ -1,27 +1,26 @@
 # Instructions  
 
-  ** this file should contain student lesson instructions **
+Write a function named `ageInSeconds` that:
 
-  _ students will see these instructions in a read-only workspace tab _
+- Accepts a person's age in years
+- Multiplies the age in years by the number of **seconds** in a year
+- `return`s the person's age in **seconds**
 
-  ## Steps
-  1. 
-  2. 
-  3. 
+```js
+function ageInSeconds(num) {
+  // your code here
+}
 
-  Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format your instructions.
-
-  For example, here is a code block in python3
-```python
-def hello_world():
-  print("hello world!")
+console.log(ageInSeconds(1));
+// 'You are 31557600 seconds old'
+console.log(ageInSeconds(10));
+// 'You are 315576000 seconds old'
+console.log(ageInSeconds(27));
+// 'You are 852055200 seconds old'
+console.log(ageInSeconds(50));
+// 'You are 1577880000 seconds old'
+console.log(ageInSeconds(100));
+// 'You are 3155760000 seconds old'
+console.log(ageInSeconds(0.25));
+// 'You are 7889400 seconds old'
 ```
-
-
-  Include an image by placing it in the `assets` folder.
-
-  For example, here is the Replit logo:
-
-  ![alt text](assets/logo.png)
-  
-  
