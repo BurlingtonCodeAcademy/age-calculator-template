@@ -1,5 +1,6 @@
 function ageInSeconds(num) {
-  // change me
+  const secondsOld = num * 365.25 * 60 * 60 * 24
+  return `You are ${secondsOld} seconds old`;
 }
 
 console.log(ageInSeconds(1));   // should print 'You are 31557600 seconds old'
@@ -11,4 +12,4 @@ console.log(ageInSeconds(0.25));// should print 'You are 7889400 seconds old'
 
 /* Do not modify below this line */
 
-module.exports = { ageInSeconds };
+export const index = { ageInSeconds };

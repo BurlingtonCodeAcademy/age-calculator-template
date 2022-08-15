@@ -1,5 +1,4 @@
-import { describe, test, expect } from 'jest';
-import '../../../index.js';
+import { index } from '../index.js';
 
 describe('ageInSeconds', () => {
   test("one-second-old", async function() {
